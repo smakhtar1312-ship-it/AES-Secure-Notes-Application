@@ -1,0 +1,3 @@
+# database directory placeholder
+# SQLite database files will be created here at runtime
+# These files are excluded from git via .gitignore

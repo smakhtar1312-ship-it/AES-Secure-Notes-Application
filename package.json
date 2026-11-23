@@ -1,0 +1,10 @@
+{
+  "name": "aes-secure-notes",
+  "version": "1.0.0",
+  "description": "AES Secure Notes Application",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "start \"Backend\" cmd /k \"cd backend && npm run dev\" && start \"Frontend\" cmd /k \"cd frontend && npm run dev\"",
+    "test": "cd backend && npm test"
+  }
+}
